@@ -13,3 +13,35 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model User {
+  id              Int      @id @default(autoincrement())
+  email           String   @unique
+  password        String?
+  fullName        String
+  membership      Membership @default(A)
+  socialId        String?
+  createdAt       DateTime @default(now())
+}
+
+enum Membership {
+  A
+  B
+  C
+}
+
+model Content {
+  id          String @id @default(uuid())
+  title       String
+  description String
+  video       String
+
+}
+
+model Article {
+  id      String @id @default(uuid())
+  title   String
+  content String
+  image   String
+
+}
