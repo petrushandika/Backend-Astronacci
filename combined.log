@@ -22,3 +22,37 @@
 {"level":"info","message":"User logged in successfully: test@example.com","service":"user-service","timestamp":"2025-05-23 20:15:23"}
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:16:54"}
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:17:10"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:17:56"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:00:07"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:00:26"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:00:48"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:05:44"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:06:51"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:07:59"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:10:23"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:13:26"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:13:32"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:18:22"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:19:27"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:20:18"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-23 21:22:40"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google - GET - ::1","service":"user-service","timestamp":"2025-05-23 21:22:40"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-23 21:22:50"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google - GET - ::1","service":"user-service","timestamp":"2025-05-23 21:22:50"}
+{"level":"info","message":"POST /api/auth/login","service":"user-service","timestamp":"2025-05-23 21:23:11"}
+{"level":"info","message":"Login endpoint called","service":"user-service","timestamp":"2025-05-23 21:23:11"}
+{"level":"info","message":"Login attempt for user: test@example.com","service":"user-service","timestamp":"2025-05-23 21:23:11"}
+{"level":"info","message":"User logged in successfully: 1","service":"user-service","timestamp":"2025-05-23 21:23:11"}
+{"level":"info","message":"User logged in successfully: test@example.com","service":"user-service","timestamp":"2025-05-23 21:23:11"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-23 21:23:13"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google - GET - ::1","service":"user-service","timestamp":"2025-05-23 21:23:13"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:23:52"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:24:10"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-23 21:24:11"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google - GET - ::1","service":"user-service","timestamp":"2025-05-23 21:24:11"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-23 21:24:13"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google - GET - ::1","service":"user-service","timestamp":"2025-05-23 21:24:13"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:24:28"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:24:31"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:25:15"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:25:38"}

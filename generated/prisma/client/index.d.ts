@@ -1091,29 +1091,35 @@ export namespace Prisma {
 
   export type UserMinAggregateOutputType = {
     id: number | null
+    name: string | null
     email: string | null
     password: string | null
-    name: string | null
     membership: $Enums.Membership | null
+    googleId: string | null
     createdAt: Date | null
+    updatedAt: Date | null
   }
 
   export type UserMaxAggregateOutputType = {
     id: number | null
+    name: string | null
     email: string | null
     password: string | null
-    name: string | null
     membership: $Enums.Membership | null
+    googleId: string | null
     createdAt: Date | null
+    updatedAt: Date | null
   }
 
   export type UserCountAggregateOutputType = {
     id: number
+    name: number
     email: number
     password: number
-    name: number
     membership: number
+    googleId: number
     createdAt: number
+    updatedAt: number
     _all: number
   }
 
@@ -1128,29 +1134,35 @@ export namespace Prisma {
 
   export type UserMinAggregateInputType = {
     id?: true
+    name?: true
     email?: true
     password?: true
-    name?: true
     membership?: true
+    googleId?: true
     createdAt?: true
+    updatedAt?: true
   }
 
   export type UserMaxAggregateInputType = {
     id?: true
+    name?: true
     email?: true
     password?: true
-    name?: true
     membership?: true
+    googleId?: true
     createdAt?: true
+    updatedAt?: true
   }
 
   export type UserCountAggregateInputType = {
     id?: true
+    name?: true
     email?: true
     password?: true
-    name?: true
     membership?: true
+    googleId?: true
     createdAt?: true
+    updatedAt?: true
     _all?: true
   }
 
@@ -1242,11 +1254,13 @@ export namespace Prisma {
 
   export type UserGroupByOutputType = {
     id: number
+    name: string
     email: string
     password: string | null
-    name: string
     membership: $Enums.Membership
+    googleId: string | null
     createdAt: Date
+    updatedAt: Date
     _count: UserCountAggregateOutputType | null
     _avg: UserAvgAggregateOutputType | null
     _sum: UserSumAggregateOutputType | null
@@ -1270,52 +1284,62 @@ export namespace Prisma {
 
   export type UserSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     id?: boolean
+    name?: boolean
     email?: boolean
     password?: boolean
-    name?: boolean
     membership?: boolean
+    googleId?: boolean
     createdAt?: boolean
+    updatedAt?: boolean
   }, ExtArgs["result"]["user"]>
 
   export type UserSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     id?: boolean
+    name?: boolean
     email?: boolean
     password?: boolean
-    name?: boolean
     membership?: boolean
+    googleId?: boolean
     createdAt?: boolean
+    updatedAt?: boolean
   }, ExtArgs["result"]["user"]>
 
   export type UserSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     id?: boolean
+    name?: boolean
     email?: boolean
     password?: boolean
-    name?: boolean
     membership?: boolean
+    googleId?: boolean
     createdAt?: boolean
+    updatedAt?: boolean
   }, ExtArgs["result"]["user"]>
 
   export type UserSelectScalar = {
     id?: boolean
+    name?: boolean
     email?: boolean
     password?: boolean
-    name?: boolean
     membership?: boolean
+    googleId?: boolean
     createdAt?: boolean
+    updatedAt?: boolean
   }
 
-  export type UserOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "email" | "password" | "name" | "membership" | "createdAt", ExtArgs["result"]["user"]>
+  export type UserOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "name" | "email" | "password" | "membership" | "googleId" | "createdAt" | "updatedAt", ExtArgs["result"]["user"]>
 
   export type $UserPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "User"
     objects: {}
     scalars: $Extensions.GetPayloadResult<{
       id: number
+      name: string
       email: string
       password: string | null
-      name: string
       membership: $Enums.Membership
+      googleId: string | null
       createdAt: Date
+      updatedAt: Date
     }, ExtArgs["result"]["user"]>
     composites: {}
   }
@@ -1740,11 +1764,13 @@ export namespace Prisma {
    */
   interface UserFieldRefs {
     readonly id: FieldRef<"User", 'Int'>
+    readonly name: FieldRef<"User", 'String'>
     readonly email: FieldRef<"User", 'String'>
     readonly password: FieldRef<"User", 'String'>
-    readonly name: FieldRef<"User", 'String'>
     readonly membership: FieldRef<"User", 'Membership'>
+    readonly googleId: FieldRef<"User", 'String'>
     readonly createdAt: FieldRef<"User", 'DateTime'>
+    readonly updatedAt: FieldRef<"User", 'DateTime'>
   }
     
 
@@ -4091,11 +4117,13 @@ export namespace Prisma {
 
   export const UserScalarFieldEnum: {
     id: 'id',
+    name: 'name',
     email: 'email',
     password: 'password',
-    name: 'name',
     membership: 'membership',
-    createdAt: 'createdAt'
+    googleId: 'googleId',
+    createdAt: 'createdAt',
+    updatedAt: 'updatedAt'
   };
 
   export type UserScalarFieldEnum = (typeof UserScalarFieldEnum)[keyof typeof UserScalarFieldEnum]
@@ -4228,41 +4256,49 @@ export namespace Prisma {
     OR?: UserWhereInput[]
     NOT?: UserWhereInput | UserWhereInput[]
     id?: IntFilter<"User"> | number
+    name?: StringFilter<"User"> | string
     email?: StringFilter<"User"> | string
     password?: StringNullableFilter<"User"> | string | null
-    name?: StringFilter<"User"> | string
     membership?: EnumMembershipFilter<"User"> | $Enums.Membership
+    googleId?: StringNullableFilter<"User"> | string | null
     createdAt?: DateTimeFilter<"User"> | Date | string
+    updatedAt?: DateTimeFilter<"User"> | Date | string
   }
 
   export type UserOrderByWithRelationInput = {
     id?: SortOrder
+    name?: SortOrder
     email?: SortOrder
     password?: SortOrderInput | SortOrder
-    name?: SortOrder
     membership?: SortOrder
+    googleId?: SortOrderInput | SortOrder
     createdAt?: SortOrder
+    updatedAt?: SortOrder
   }
 
   export type UserWhereUniqueInput = Prisma.AtLeast<{
     id?: number
     email?: string
+    googleId?: string
     AND?: UserWhereInput | UserWhereInput[]
     OR?: UserWhereInput[]
     NOT?: UserWhereInput | UserWhereInput[]
-    password?: StringNullableFilter<"User"> | string | null
     name?: StringFilter<"User"> | string
+    password?: StringNullableFilter<"User"> | string | null
     membership?: EnumMembershipFilter<"User"> | $Enums.Membership
     createdAt?: DateTimeFilter<"User"> | Date | string
-  }, "id" | "email">
+    updatedAt?: DateTimeFilter<"User"> | Date | string
+  }, "id" | "email" | "googleId">
 
   export type UserOrderByWithAggregationInput = {
     id?: SortOrder
+    name?: SortOrder
     email?: SortOrder
     password?: SortOrderInput | SortOrder
-    name?: SortOrder
     membership?: SortOrder
+    googleId?: SortOrderInput | SortOrder
     createdAt?: SortOrder
+    updatedAt?: SortOrder
     _count?: UserCountOrderByAggregateInput
     _avg?: UserAvgOrderByAggregateInput
     _max?: UserMaxOrderByAggregateInput
@@ -4275,11 +4311,13 @@ export namespace Prisma {
     OR?: UserScalarWhereWithAggregatesInput[]
     NOT?: UserScalarWhereWithAggregatesInput | UserScalarWhereWithAggregatesInput[]
     id?: IntWithAggregatesFilter<"User"> | number
+    name?: StringWithAggregatesFilter<"User"> | string
     email?: StringWithAggregatesFilter<"User"> | string
     password?: StringNullableWithAggregatesFilter<"User"> | string | null
-    name?: StringWithAggregatesFilter<"User"> | string
     membership?: EnumMembershipWithAggregatesFilter<"User"> | $Enums.Membership
+    googleId?: StringNullableWithAggregatesFilter<"User"> | string | null
     createdAt?: DateTimeWithAggregatesFilter<"User"> | Date | string
+    updatedAt?: DateTimeWithAggregatesFilter<"User"> | Date | string
   }
 
   export type ContentWhereInput = {
@@ -4377,63 +4415,77 @@ export namespace Prisma {
   }
 
   export type UserCreateInput = {
+    name: string
     email: string
     password?: string | null
-    name: string
     membership?: $Enums.Membership
+    googleId?: string | null
     createdAt?: Date | string
+    updatedAt?: Date | string
   }
 
   export type UserUncheckedCreateInput = {
     id?: number
+    name: string
     email: string
     password?: string | null
-    name: string
     membership?: $Enums.Membership
+    googleId?: string | null
     createdAt?: Date | string
+    updatedAt?: Date | string
   }
 
   export type UserUpdateInput = {
+    name?: StringFieldUpdateOperationsInput | string
     email?: StringFieldUpdateOperationsInput | string
     password?: NullableStringFieldUpdateOperationsInput | string | null
-    name?: StringFieldUpdateOperationsInput | string
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
+    updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
   export type UserUncheckedUpdateInput = {
     id?: IntFieldUpdateOperationsInput | number
+    name?: StringFieldUpdateOperationsInput | string
     email?: StringFieldUpdateOperationsInput | string
     password?: NullableStringFieldUpdateOperationsInput | string | null
-    name?: StringFieldUpdateOperationsInput | string
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
+    updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
   export type UserCreateManyInput = {
     id?: number
+    name: string
     email: string
     password?: string | null
-    name: string
     membership?: $Enums.Membership
+    googleId?: string | null
     createdAt?: Date | string
+    updatedAt?: Date | string
   }
 
   export type UserUpdateManyMutationInput = {
+    name?: StringFieldUpdateOperationsInput | string
     email?: StringFieldUpdateOperationsInput | string
     password?: NullableStringFieldUpdateOperationsInput | string | null
-    name?: StringFieldUpdateOperationsInput | string
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
+    updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
   export type UserUncheckedUpdateManyInput = {
     id?: IntFieldUpdateOperationsInput | number
+    name?: StringFieldUpdateOperationsInput | string
     email?: StringFieldUpdateOperationsInput | string
     password?: NullableStringFieldUpdateOperationsInput | string | null
-    name?: StringFieldUpdateOperationsInput | string
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
+    updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
   export type ContentCreateInput = {
@@ -4600,11 +4652,13 @@ export namespace Prisma {
 
   export type UserCountOrderByAggregateInput = {
     id?: SortOrder
+    name?: SortOrder
     email?: SortOrder
     password?: SortOrder
-    name?: SortOrder
     membership?: SortOrder
+    googleId?: SortOrder
     createdAt?: SortOrder
+    updatedAt?: SortOrder
   }
 
   export type UserAvgOrderByAggregateInput = {
@@ -4613,20 +4667,24 @@ export namespace Prisma {
 
   export type UserMaxOrderByAggregateInput = {
     id?: SortOrder
+    name?: SortOrder
     email?: SortOrder
     password?: SortOrder
-    name?: SortOrder
     membership?: SortOrder
+    googleId?: SortOrder
     createdAt?: SortOrder
+    updatedAt?: SortOrder
   }
 
   export type UserMinOrderByAggregateInput = {
     id?: SortOrder
+    name?: SortOrder
     email?: SortOrder
     password?: SortOrder
-    name?: SortOrder
     membership?: SortOrder
+    googleId?: SortOrder
     createdAt?: SortOrder
+    updatedAt?: SortOrder
   }
 
   export type UserSumOrderByAggregateInput = {

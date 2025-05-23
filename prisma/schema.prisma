@@ -16,11 +16,13 @@ datasource db {
 
 model User {
   id              Int      @id @default(autoincrement())
+  name            String
   email           String   @unique
   password        String?
-  name            String
   membership      Membership @default(Starter)
+  googleId  String? @unique
   createdAt       DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 enum Membership {
@@ -34,7 +36,6 @@ model Content {
   title       String
   description String
   video       String
-
 }
 
 model Article {
