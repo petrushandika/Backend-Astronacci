@@ -1,0 +1,24 @@
+{"level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-05-23 20:09:49"}
+{"level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-05-23 20:10:17"}
+{"level":"info","message":"Server is running on port 5000","service":"user-service","timestamp":"2025-05-23 20:10:19"}
+{"level":"info","message":"GET /api/auth","service":"user-service","timestamp":"2025-05-23 20:11:01"}
+{"level":"warn","message":"404 - Route Not Found - /api/auth - GET - ::1","service":"user-service","timestamp":"2025-05-23 20:11:01"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:12:20"}
+{"level":"info","message":"POST /api/auth/register","service":"user-service","timestamp":"2025-05-23 20:12:58"}
+{"level":"info","message":"Register endpoint called","service":"user-service","timestamp":"2025-05-23 20:12:58"}
+{"level":"info","message":"Attempting to register user with email: test@example.com","service":"user-service","timestamp":"2025-05-23 20:12:58"}
+{"level":"info","message":"User registered successfully: 1","service":"user-service","timestamp":"2025-05-23 20:12:58"}
+{"level":"info","message":"User registered successfully: 1","service":"user-service","timestamp":"2025-05-23 20:12:58"}
+{"level":"info","message":"POST /api/auth/login","service":"user-service","timestamp":"2025-05-23 20:13:30"}
+{"level":"info","message":"Login endpoint called","service":"user-service","timestamp":"2025-05-23 20:13:30"}
+{"level":"info","message":"Login attempt for user: test@example.com","service":"user-service","timestamp":"2025-05-23 20:13:30"}
+{"level":"error","message":"Caught async error: secretOrPrivateKey must have a value","service":"user-service","stack":"Error: secretOrPrivateKey must have a value\n    at Object.module.exports [as sign] (D:\\05 - Project\\Backend-Astronacci\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at D:\\05 - Project\\Backend-Astronacci\\src\\services\\auth.service.ts:46:21\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\05 - Project\\Backend-Astronacci\\src\\services\\auth.service.ts:5:58)","timestamp":"2025-05-23 20:13:30"}
+{"level":"error","message":"500 - secretOrPrivateKey must have a value - /api/auth/login - POST - ::1","service":"user-service","timestamp":"2025-05-23 20:13:30"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:15:17"}
+{"level":"info","message":"POST /api/auth/login","service":"user-service","timestamp":"2025-05-23 20:15:23"}
+{"level":"info","message":"Login endpoint called","service":"user-service","timestamp":"2025-05-23 20:15:23"}
+{"level":"info","message":"Login attempt for user: test@example.com","service":"user-service","timestamp":"2025-05-23 20:15:23"}
+{"level":"info","message":"User logged in successfully: 1","service":"user-service","timestamp":"2025-05-23 20:15:23"}
+{"level":"info","message":"User logged in successfully: test@example.com","service":"user-service","timestamp":"2025-05-23 20:15:23"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:16:54"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 20:17:10"}
