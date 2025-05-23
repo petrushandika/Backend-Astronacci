@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { getLoggedUser, upgradeMembership } from "../services/user.service";
-import { upgradeMembershipSchema } from "../models/user.model";
+import { membershipSchema } from "../models/membership.model";
 
 class UserController {
   async getLoggedUser(req: Request, res: Response) {
@@ -20,7 +20,7 @@ class UserController {
   }
 
   async upgradeMembership(req: Request, res: Response) {
-    const result = upgradeMembershipSchema.safeParse(req.body);
+    const result = membershipSchema.safeParse(req.body);
     if (!result.success) {
       return res
         .status(400)
