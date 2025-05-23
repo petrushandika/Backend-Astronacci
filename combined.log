@@ -56,3 +56,11 @@
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:24:31"}
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:25:15"}
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:25:38"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:25:55"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-23 21:25:57"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:29:19"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:31:49"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:32:09"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:32:13"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:32:16"}
+{"level":"info","message":"GET /api/auth/facebook","service":"user-service","timestamp":"2025-05-23 21:32:48"}

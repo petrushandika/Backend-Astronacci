@@ -1,7 +1,10 @@
+// src/config/passport.config.ts
 import passport from "passport";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
+import { Strategy as FacebookStrategy } from "passport-facebook";
 import prisma from "../config/prisma";
 
+// 🔵 Google Strategy
 passport.use(
   new GoogleStrategy(
     {
@@ -33,6 +36,44 @@ passport.use(
   )
 );
 
+passport.use(
+  new FacebookStrategy(
+    {
+      clientID: process.env.FACEBOOK_CLIENT_ID!,
+      clientSecret: process.env.FACEBOOK_CLIENT_SECRET!,
+      callbackURL: "/api/auth/facebook/callback",
+      profileFields: ["id", "emails", "name", "displayName"],
+    },
+    async (token, refreshToken, profile, done) => {
+      try {
+        let user = await prisma.user.findUnique({
+          where: { facebookId: profile.id },
+        });
+
+        if (!user) {
+          const email =
+            profile.emails && profile.emails.length > 0
+              ? profile.emails[0].value
+              : "";
+          const name = profile.displayName;
+
+          user = await prisma.user.create({
+            data: {
+              facebookId: profile.id,
+              email,
+              name,
+            },
+          });
+        }
+
+        return done(null, user);
+      } catch (error) {
+        return done(error, false);
+      }
+    }
+  )
+);
+
 passport.serializeUser((user: any, done) => {
   done(null, user.id);
 });
@@ -41,3 +82,5 @@ passport.deserializeUser(async (id: number, done) => {
   const user = await prisma.user.findUnique({ where: { id } });
   done(null, user);
 });
+
+export default passport;

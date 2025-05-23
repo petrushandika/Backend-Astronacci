@@ -20,7 +20,8 @@ model User {
   email           String   @unique
   password        String?
   membership      Membership @default(Starter)
-  googleId  String? @unique
+  googleId        String? @unique
+  facebookId      String? @unique
   createdAt       DateTime @default(now())
   updatedAt DateTime @updatedAt
 }

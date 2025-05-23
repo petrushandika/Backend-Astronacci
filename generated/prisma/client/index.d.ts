@@ -1096,6 +1096,7 @@ export namespace Prisma {
     password: string | null
     membership: $Enums.Membership | null
     googleId: string | null
+    facebookId: string | null
     createdAt: Date | null
     updatedAt: Date | null
   }
@@ -1107,6 +1108,7 @@ export namespace Prisma {
     password: string | null
     membership: $Enums.Membership | null
     googleId: string | null
+    facebookId: string | null
     createdAt: Date | null
     updatedAt: Date | null
   }
@@ -1118,6 +1120,7 @@ export namespace Prisma {
     password: number
     membership: number
     googleId: number
+    facebookId: number
     createdAt: number
     updatedAt: number
     _all: number
@@ -1139,6 +1142,7 @@ export namespace Prisma {
     password?: true
     membership?: true
     googleId?: true
+    facebookId?: true
     createdAt?: true
     updatedAt?: true
   }
@@ -1150,6 +1154,7 @@ export namespace Prisma {
     password?: true
     membership?: true
     googleId?: true
+    facebookId?: true
     createdAt?: true
     updatedAt?: true
   }
@@ -1161,6 +1166,7 @@ export namespace Prisma {
     password?: true
     membership?: true
     googleId?: true
+    facebookId?: true
     createdAt?: true
     updatedAt?: true
     _all?: true
@@ -1259,6 +1265,7 @@ export namespace Prisma {
     password: string | null
     membership: $Enums.Membership
     googleId: string | null
+    facebookId: string | null
     createdAt: Date
     updatedAt: Date
     _count: UserCountAggregateOutputType | null
@@ -1289,6 +1296,7 @@ export namespace Prisma {
     password?: boolean
     membership?: boolean
     googleId?: boolean
+    facebookId?: boolean
     createdAt?: boolean
     updatedAt?: boolean
   }, ExtArgs["result"]["user"]>
@@ -1300,6 +1308,7 @@ export namespace Prisma {
     password?: boolean
     membership?: boolean
     googleId?: boolean
+    facebookId?: boolean
     createdAt?: boolean
     updatedAt?: boolean
   }, ExtArgs["result"]["user"]>
@@ -1311,6 +1320,7 @@ export namespace Prisma {
     password?: boolean
     membership?: boolean
     googleId?: boolean
+    facebookId?: boolean
     createdAt?: boolean
     updatedAt?: boolean
   }, ExtArgs["result"]["user"]>
@@ -1322,11 +1332,12 @@ export namespace Prisma {
     password?: boolean
     membership?: boolean
     googleId?: boolean
+    facebookId?: boolean
     createdAt?: boolean
     updatedAt?: boolean
   }
 
-  export type UserOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "name" | "email" | "password" | "membership" | "googleId" | "createdAt" | "updatedAt", ExtArgs["result"]["user"]>
+  export type UserOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "name" | "email" | "password" | "membership" | "googleId" | "facebookId" | "createdAt" | "updatedAt", ExtArgs["result"]["user"]>
 
   export type $UserPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "User"
@@ -1338,6 +1349,7 @@ export namespace Prisma {
       password: string | null
       membership: $Enums.Membership
       googleId: string | null
+      facebookId: string | null
       createdAt: Date
       updatedAt: Date
     }, ExtArgs["result"]["user"]>
@@ -1769,6 +1781,7 @@ export namespace Prisma {
     readonly password: FieldRef<"User", 'String'>
     readonly membership: FieldRef<"User", 'Membership'>
     readonly googleId: FieldRef<"User", 'String'>
+    readonly facebookId: FieldRef<"User", 'String'>
     readonly createdAt: FieldRef<"User", 'DateTime'>
     readonly updatedAt: FieldRef<"User", 'DateTime'>
   }
@@ -4122,6 +4135,7 @@ export namespace Prisma {
     password: 'password',
     membership: 'membership',
     googleId: 'googleId',
+    facebookId: 'facebookId',
     createdAt: 'createdAt',
     updatedAt: 'updatedAt'
   };
@@ -4261,6 +4275,7 @@ export namespace Prisma {
     password?: StringNullableFilter<"User"> | string | null
     membership?: EnumMembershipFilter<"User"> | $Enums.Membership
     googleId?: StringNullableFilter<"User"> | string | null
+    facebookId?: StringNullableFilter<"User"> | string | null
     createdAt?: DateTimeFilter<"User"> | Date | string
     updatedAt?: DateTimeFilter<"User"> | Date | string
   }
@@ -4272,6 +4287,7 @@ export namespace Prisma {
     password?: SortOrderInput | SortOrder
     membership?: SortOrder
     googleId?: SortOrderInput | SortOrder
+    facebookId?: SortOrderInput | SortOrder
     createdAt?: SortOrder
     updatedAt?: SortOrder
   }
@@ -4280,6 +4296,7 @@ export namespace Prisma {
     id?: number
     email?: string
     googleId?: string
+    facebookId?: string
     AND?: UserWhereInput | UserWhereInput[]
     OR?: UserWhereInput[]
     NOT?: UserWhereInput | UserWhereInput[]
@@ -4288,7 +4305,7 @@ export namespace Prisma {
     membership?: EnumMembershipFilter<"User"> | $Enums.Membership
     createdAt?: DateTimeFilter<"User"> | Date | string
     updatedAt?: DateTimeFilter<"User"> | Date | string
-  }, "id" | "email" | "googleId">
+  }, "id" | "email" | "googleId" | "facebookId">
 
   export type UserOrderByWithAggregationInput = {
     id?: SortOrder
@@ -4297,6 +4314,7 @@ export namespace Prisma {
     password?: SortOrderInput | SortOrder
     membership?: SortOrder
     googleId?: SortOrderInput | SortOrder
+    facebookId?: SortOrderInput | SortOrder
     createdAt?: SortOrder
     updatedAt?: SortOrder
     _count?: UserCountOrderByAggregateInput
@@ -4316,6 +4334,7 @@ export namespace Prisma {
     password?: StringNullableWithAggregatesFilter<"User"> | string | null
     membership?: EnumMembershipWithAggregatesFilter<"User"> | $Enums.Membership
     googleId?: StringNullableWithAggregatesFilter<"User"> | string | null
+    facebookId?: StringNullableWithAggregatesFilter<"User"> | string | null
     createdAt?: DateTimeWithAggregatesFilter<"User"> | Date | string
     updatedAt?: DateTimeWithAggregatesFilter<"User"> | Date | string
   }
@@ -4420,6 +4439,7 @@ export namespace Prisma {
     password?: string | null
     membership?: $Enums.Membership
     googleId?: string | null
+    facebookId?: string | null
     createdAt?: Date | string
     updatedAt?: Date | string
   }
@@ -4431,6 +4451,7 @@ export namespace Prisma {
     password?: string | null
     membership?: $Enums.Membership
     googleId?: string | null
+    facebookId?: string | null
     createdAt?: Date | string
     updatedAt?: Date | string
   }
@@ -4441,6 +4462,7 @@ export namespace Prisma {
     password?: NullableStringFieldUpdateOperationsInput | string | null
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
     googleId?: NullableStringFieldUpdateOperationsInput | string | null
+    facebookId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
@@ -4452,6 +4474,7 @@ export namespace Prisma {
     password?: NullableStringFieldUpdateOperationsInput | string | null
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
     googleId?: NullableStringFieldUpdateOperationsInput | string | null
+    facebookId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
@@ -4463,6 +4486,7 @@ export namespace Prisma {
     password?: string | null
     membership?: $Enums.Membership
     googleId?: string | null
+    facebookId?: string | null
     createdAt?: Date | string
     updatedAt?: Date | string
   }
@@ -4473,6 +4497,7 @@ export namespace Prisma {
     password?: NullableStringFieldUpdateOperationsInput | string | null
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
     googleId?: NullableStringFieldUpdateOperationsInput | string | null
+    facebookId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
@@ -4484,6 +4509,7 @@ export namespace Prisma {
     password?: NullableStringFieldUpdateOperationsInput | string | null
     membership?: EnumMembershipFieldUpdateOperationsInput | $Enums.Membership
     googleId?: NullableStringFieldUpdateOperationsInput | string | null
+    facebookId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     updatedAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
@@ -4657,6 +4683,7 @@ export namespace Prisma {
     password?: SortOrder
     membership?: SortOrder
     googleId?: SortOrder
+    facebookId?: SortOrder
     createdAt?: SortOrder
     updatedAt?: SortOrder
   }
@@ -4672,6 +4699,7 @@ export namespace Prisma {
     password?: SortOrder
     membership?: SortOrder
     googleId?: SortOrder
+    facebookId?: SortOrder
     createdAt?: SortOrder
     updatedAt?: SortOrder
   }
@@ -4683,6 +4711,7 @@ export namespace Prisma {
     password?: SortOrder
     membership?: SortOrder
     googleId?: SortOrder
+    facebookId?: SortOrder
     createdAt?: SortOrder
     updatedAt?: SortOrder
   }
