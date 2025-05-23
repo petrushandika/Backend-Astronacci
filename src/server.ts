@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import AuthRoutes from "./routes/auth.route";
+import UserRoutes from "./routes/user.route";
 import logger from "./utils/logger.utils";
 import { AppError } from "./utils/error.utils";
 import passport from "passport";
@@ -21,6 +22,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 });
 
 app.use("/api/auth", AuthRoutes);
+app.use("/api/users", UserRoutes);
 
 app.use(passport.initialize());
 

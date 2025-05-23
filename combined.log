@@ -64,3 +64,60 @@
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:32:13"}
 {"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:32:16"}
 {"level":"info","message":"GET /api/auth/facebook","service":"user-service","timestamp":"2025-05-23 21:32:48"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:34:30"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:40:15"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:40:37"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:41:36"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:41:59"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:42:19"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:42:38"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:43:02"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:44:36"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:46:13"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:46:19"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:46:57"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:46:59"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:47:15"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:48:28"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:50:02"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:50:06"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:50:24"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:50:59"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:51:03"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:52:41"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:52:47"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:55:56"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:56:02"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:56:18"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:58:21"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:58:35"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 21:59:14"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 22:00:05"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 22:00:31"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 22:01:00"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-23 22:03:08"}
+{"level":"warn","message":"404 - Route Not Found - /api/users/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:03:08"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-23 22:03:13"}
+{"level":"warn","message":"404 - Route Not Found - /api/users/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:03:13"}
+{"level":"info","message":"POST /api/auth/login","service":"user-service","timestamp":"2025-05-23 22:03:53"}
+{"level":"info","message":"Login endpoint called","service":"user-service","timestamp":"2025-05-23 22:03:53"}
+{"level":"info","message":"Login attempt for user: test@example.com","service":"user-service","timestamp":"2025-05-23 22:03:53"}
+{"level":"info","message":"User logged in successfully: 1","service":"user-service","timestamp":"2025-05-23 22:03:54"}
+{"level":"info","message":"User logged in successfully: test@example.com","service":"user-service","timestamp":"2025-05-23 22:03:54"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-23 22:04:08"}
+{"level":"warn","message":"404 - Route Not Found - /api/users/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:04:08"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-23 22:04:47"}
+{"level":"warn","message":"404 - Route Not Found - /api/users/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:04:47"}
+{"level":"info","message":"GET /api/user/me","service":"user-service","timestamp":"2025-05-23 22:05:15"}
+{"level":"warn","message":"404 - Route Not Found - /api/user/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:05:15"}
+{"level":"info","message":"GET /api/user/me","service":"user-service","timestamp":"2025-05-23 22:05:18"}
+{"level":"warn","message":"404 - Route Not Found - /api/user/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:05:18"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-23 22:06:32"}
+{"level":"warn","message":"404 - Route Not Found - /api/users/me - GET - ::1","service":"user-service","timestamp":"2025-05-23 22:06:32"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 22:06:59"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 22:07:30"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-23 22:07:50"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-23 22:08:00"}
+{"level":"info","message":"User 1 authenticated successfully","service":"user-service","timestamp":"2025-05-23 22:08:00"}
+{"level":"info","message":"POST /api/users/upgrade","service":"user-service","timestamp":"2025-05-23 22:09:08"}
+{"level":"info","message":"User 1 authenticated successfully","service":"user-service","timestamp":"2025-05-23 22:09:08"}
