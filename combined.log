@@ -1188,3 +1188,516 @@
 {"level":"info","message":"User 6 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:07:30"}
 {"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:07:30"}
 {"level":"info","message":"User 6 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:07:30"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 11:08:12"}
+{"level":"info","message":"POST /api/auth/register","service":"user-service","timestamp":"2025-05-24 11:08:27"}
+{"level":"info","message":"Register endpoint called","service":"user-service","timestamp":"2025-05-24 11:08:27"}
+{"level":"info","message":"Attempting to register user with email: ujang123@gmail.com","service":"user-service","timestamp":"2025-05-24 11:08:27"}
+{"level":"info","message":"User registered successfully: 4","service":"user-service","timestamp":"2025-05-24 11:08:27"}
+{"level":"info","message":"User registered successfully: 4","service":"user-service","timestamp":"2025-05-24 11:08:27"}
+{"level":"info","message":"POST /api/auth/login","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"Login endpoint called","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"Login attempt for user: ujang123@gmail.com","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User logged in successfully: 4","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User logged in successfully: ujang123@gmail.com","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:08:33"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:37"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:09:38"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:09:38"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:06"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:10:23"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:23"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:10:23"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:23"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:10:30"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:30"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:10:30"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:10:30"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:36"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:37"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:11:44"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:12:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:12:19"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:12:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:12:19"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:12:45"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:12:45"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:12:45"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:12:45"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:12:56"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:12:56"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:31"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:13:39"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:39"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:13:39"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:39"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:13:55"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:55"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:13:55"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:13:55"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:08"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:14:19"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:16:43"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:16:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:16:49"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:16:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:16:49"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:16"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:16"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:17:16"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:16"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:19"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:17:19"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:19"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:24"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:24"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:17:24"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:24"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:29"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:29"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:17:29"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:29"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:35"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:35"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:17:35"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:35"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:17:43"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:18:49"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:21:15"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:21:15"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 11:21:15"}
+{"level":"info","message":"User 4 authenticated successfully","service":"user-service","timestamp":"2025-05-24 11:21:15"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-24 11:30:10"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-24 11:30:14"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-24 11:30:24"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-24 11:32:30"}
+{"level":"info","message":"GET /api/auth/google/callback","service":"user-service","timestamp":"2025-05-24 11:48:25"}
+{"level":"info","message":"GET /api/auth/google","service":"user-service","timestamp":"2025-05-24 11:51:48"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 11:54:16"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x5s3xEb4a9pornNgifxG0GsBQvo3ylDpFTR6PMgyRbcNtRp2drtGhBxfi7OlDTaAA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 11:58:05"}
+{"level":"error","message":"500 - \nInvalid `prisma.user.create()` invocation in\nD:\\05 - Project\\Backend-Astronacci\\src\\config\\passport.ts:22:36\n\n  19 });\n  20 \n  21 if (!user) {\n→ 22   user = await prisma.user.create(\nUnique constraint failed on the fields: (`email`) - /api/auth/google/callback?code=4%2F0AUJR-x5s3xEb4a9pornNgifxG0GsBQvo3ylDpFTR6PMgyRbcNtRp2drtGhBxfi7OlDTaAA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:05"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5b8cfefa_d7ed_46a8_a9e6_7781b3ea79d6__0","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5b8cfefa_d7ed_46a8_a9e6_7781b3ea79d6__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a066ab67_8481_487d_be0b_49442a894e29__1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a066ab67_8481_487d_be0b_49442a894e29__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__cb89d6c0_808d_4c56_b461_94ed70afed6d__2","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__cb89d6c0_808d_4c56_b461_94ed70afed6d__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__34c5201f_5722_4f93_aa41_24f1defd2722__3","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__34c5201f_5722_4f93_aa41_24f1defd2722__3 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c9112151_1678_4a4b_b1e9_0821245ce445__4","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c9112151_1678_4a4b_b1e9_0821245ce445__4 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__95cea85d_9b9e_4b7d_b79d_ed7c074947c4__5","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__95cea85d_9b9e_4b7d_b79d_ed7c074947c4__5 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:07"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__115c49f2_bf11_4fc6_aab9_90554dff8d6a__0","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__115c49f2_bf11_4fc6_aab9_90554dff8d6a__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__14f4031b_01c0_4398_a3e5_cfe027cdf786__1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__14f4031b_01c0_4398_a3e5_cfe027cdf786__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fa204dac_1eb1_4754_80b7_67cbc0cdb8c0__2","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fa204dac_1eb1_4754_80b7_67cbc0cdb8c0__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__727ffd32_5d98_4c85_b2dd_edb76b5b729e__0","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__727ffd32_5d98_4c85_b2dd_edb76b5b729e__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__563b2721_d9ca_457f_bd92_721bde2ebd1d__1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__563b2721_d9ca_457f_bd92_721bde2ebd1d__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__efab4704_3a6c_44e9_ab56_27ccdb81e3e6__2","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__efab4704_3a6c_44e9_ab56_27ccdb81e3e6__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f0de7bf9_c3a2_482e_b18d_165651753115__0","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f0de7bf9_c3a2_482e_b18d_165651753115__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b172b9e3_b8f1_413e_8d94_2589dce5595c__1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b172b9e3_b8f1_413e_8d94_2589dce5595c__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a576573e_4fb8_49db_af6a_4859b004821a__2","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a576573e_4fb8_49db_af6a_4859b004821a__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:09"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__541190f1_ab16_408b_ad1f_31a6e08627c2__0","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__541190f1_ab16_408b_ad1f_31a6e08627c2__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__23de14f1_be70_4013_a783_fa7f6ca6bfe9__1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__23de14f1_be70_4013_a783_fa7f6ca6bfe9__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a24840e1_f2a3_4a0a_93be_358755318db5__2","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a24840e1_f2a3_4a0a_93be_358755318db5__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__80a96fd6_d59d_4117_85c2_c940a094faf0__0","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__80a96fd6_d59d_4117_85c2_c940a094faf0__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5fe7d42_0590_4c55_8a23_b82f00780f4c__1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5fe7d42_0590_4c55_8a23_b82f00780f4c__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bf621f12_b6fb_4cde_9053_84dce2050482__2","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bf621f12_b6fb_4cde_9053_84dce2050482__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d9b5306d_6a0f_4a9e_ad22_83ac61853e21__0","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d9b5306d_6a0f_4a9e_ad22_83ac61853e21__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9282bb6e_b5a9_49d2_8594_4890f85f61ad__1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9282bb6e_b5a9_49d2_8594_4890f85f61ad__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e63cba98_0ae2_4206_9862_74038b432c30__2","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e63cba98_0ae2_4206_9862_74038b432c30__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:10"}
+{"level":"info","message":"GET /favicon.ico","service":"user-service","timestamp":"2025-05-24 11:58:11"}
+{"level":"warn","message":"404 - Route Not Found - /favicon.ico - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:58:11"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 11:59:06"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 11:59:27"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x63yh_YZfye6INd4HmykIjRVs_FQnLz298ISTZQAF_yrZnJbZm64XSdiTuWuUvOdw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 11:59:40"}
+{"level":"info","message":"GET /api/auth/google/undefined/auth?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0ODA2Mjc4MCwiZXhwIjoxNzQ4MDY2MzgwfQ.B2VIRDtKQXDqPYPfS7MRb3aV3AK3Rs8bVbeveGvEo-E","service":"user-service","timestamp":"2025-05-24 11:59:40"}
+{"level":"warn","message":"404 - Route Not Found - /api/auth/google/undefined/auth?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0ODA2Mjc4MCwiZXhwIjoxNzQ4MDY2MzgwfQ.B2VIRDtKQXDqPYPfS7MRb3aV3AK3Rs8bVbeveGvEo-E - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:40"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e8e37f5d_d8b9_4ea0_9cdf_00011abd4459__0","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e8e37f5d_d8b9_4ea0_9cdf_00011abd4459__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8fb79e81_0a86_4b0c_98a5_22c0e5fe6fed__1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8fb79e81_0a86_4b0c_98a5_22c0e5fe6fed__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c59ee448_d76e_483b_ad08_5fb17039bb0e__2","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c59ee448_d76e_483b_ad08_5fb17039bb0e__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ff9e71bc_b7cd_4946_b48c_8fb44e5908f1__3","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ff9e71bc_b7cd_4946_b48c_8fb44e5908f1__3 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fcff51fa_2dc9_4ec8_99a5_ccd92bae7aa5__4","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fcff51fa_2dc9_4ec8_99a5_ccd92bae7aa5__4 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__73cac26e_359c_4430_a2a9_b94da10ad2ee__5","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__73cac26e_359c_4430_a2a9_b94da10ad2ee__5 - GET - ::1","service":"user-service","timestamp":"2025-05-24 11:59:42"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:00:14"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x7MhugcEBgKZpSeLXKQY6dWYh3YZczTd-1Pk52CkOSWO37Cz2_IS8-F2DpsrFR8Vg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:00:26"}
+{"level":"info","message":"GET /api/auth/google/undefined/auth?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0ODA2MjgyNywiZXhwIjoxNzQ4MDY2NDI3fQ.wMpbJSkIW_ajP8p97gUlNnEUMWI3P1-RNNSfHcQx0ic","service":"user-service","timestamp":"2025-05-24 12:00:27"}
+{"level":"warn","message":"404 - Route Not Found - /api/auth/google/undefined/auth?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0ODA2MjgyNywiZXhwIjoxNzQ4MDY2NDI3fQ.wMpbJSkIW_ajP8p97gUlNnEUMWI3P1-RNNSfHcQx0ic - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:27"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__60a996c4_2209_44f7_84c9_ae492b1af0b6__0","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__60a996c4_2209_44f7_84c9_ae492b1af0b6__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fcb0ee45_41e0_4c44_a5a0_791495081224__1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fcb0ee45_41e0_4c44_a5a0_791495081224__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b6efa53e_1123_44b3_af7c_0e350d7f9864__2","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b6efa53e_1123_44b3_af7c_0e350d7f9864__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fda0f588_71cb_4caf_b24d_cefd81ca1c99__3","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fda0f588_71cb_4caf_b24d_cefd81ca1c99__3 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4821b47e_ea04_47ed_adc4_f00e8e66a4fc__4","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4821b47e_ea04_47ed_adc4_f00e8e66a4fc__4 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__99c82408_4ef7_4aff_a125_269b907d7e81__5","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__99c82408_4ef7_4aff_a125_269b907d7e81__5 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:28"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a29b6ace_72bc_4f97_81ad_dcb5870a30d9__0","service":"user-service","timestamp":"2025-05-24 12:00:30"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a29b6ace_72bc_4f97_81ad_dcb5870a30d9__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:30"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d05bb6e8_a2d1_431d_9e17_828a742b9ece__1","service":"user-service","timestamp":"2025-05-24 12:00:30"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d05bb6e8_a2d1_431d_9e17_828a742b9ece__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:30"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__74bc28f5_e4ac_4b8c_adc3_641e8a237045__2","service":"user-service","timestamp":"2025-05-24 12:00:30"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__74bc28f5_e4ac_4b8c_adc3_641e8a237045__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:30"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__231a9961_38ab_404a_8af6_a1c34f474d71__0","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__231a9961_38ab_404a_8af6_a1c34f474d71__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b66160ff_9fc9_4918_9aca_e3e4a4bb0c84__1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b66160ff_9fc9_4918_9aca_e3e4a4bb0c84__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1a564dc4_3fa2_4a7f_b207_9d935e19ec39__2","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1a564dc4_3fa2_4a7f_b207_9d935e19ec39__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__609c1e83_68e4_40b3_97cc_073328a5946d__0","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__609c1e83_68e4_40b3_97cc_073328a5946d__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9b49c821_673a_4eb6_9d8e_59c5f7615ebc__1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9b49c821_673a_4eb6_9d8e_59c5f7615ebc__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d1b8ec0c_82ad_4608_8194_8d0b6044ae62__2","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d1b8ec0c_82ad_4608_8194_8d0b6044ae62__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__881f49b4_fdf1_4d4f_bb32_bbe5fb76feb6__0","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__881f49b4_fdf1_4d4f_bb32_bbe5fb76feb6__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1714552d_e76e_49be_92e7_a3afff776c1f__1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1714552d_e76e_49be_92e7_a3afff776c1f__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0396e268_3bb4_461e_9257_14471f17a628__2","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0396e268_3bb4_461e_9257_14471f17a628__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0db83b89_34d9_4be0_84f3_684bb85ea31f__0","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0db83b89_34d9_4be0_84f3_684bb85ea31f__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1134fd70_3e65_44c2_8df5_b057b997045b__1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1134fd70_3e65_44c2_8df5_b057b997045b__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a1565b5d_d69c_4499_b288_c25496b72ce7__2","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a1565b5d_d69c_4499_b288_c25496b72ce7__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__287445cb_9398_40ef_a8b4_856cbb0170c4__0","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__287445cb_9398_40ef_a8b4_856cbb0170c4__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e283bb6d_032d_46d5_8c4b_fb7e35d3d8d8__1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e283bb6d_032d_46d5_8c4b_fb7e35d3d8d8__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b12fae50_4874_46d5_8a9a_5a7b42ce424a__2","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b12fae50_4874_46d5_8a9a_5a7b42ce424a__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:31"}
+{"level":"info","message":"GET /favicon.ico","service":"user-service","timestamp":"2025-05-24 12:00:33"}
+{"level":"warn","message":"404 - Route Not Found - /favicon.ico - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:00:33"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:04:05"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:04:10"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:05:25"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x46N2wRWyFsuOE1doZ63le3Kj-fqJCN5-09wFQRTvdfib9rh6kKLv4XKNPglGx1Bw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:05:46"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:07:11"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:07:31"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:07:51"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:08:16"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x4osv8qzjugGWnp-_y7X_Ev-8EJ02vGDUYMcWMYe21VeztsIU126n5MWwUslN8TkQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:08:30"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:10:06"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:15:02"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x6n60XmKf1FBuRzclxtE1lz6bckVGHcF0RbowIoOeuACez5RvyJIkWM6v90y-2cHA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:15:26"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:15:51"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:19:26"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:23:27"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:28:36"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:28:40"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x4SCO4gi7x2tvAQ11Qoe72r_z93eX7L4wvIqdLruhWONLZNfvekYiMoAIYM2XEyxw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:30:41"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google/callback?code=4%2F0AUJR-x4SCO4gi7x2tvAQ11Qoe72r_z93eX7L4wvIqdLruhWONLZNfvekYiMoAIYM2XEyxw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:41"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eb2b7325_09e8_4b70_9614_ca6138bebf33__0","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eb2b7325_09e8_4b70_9614_ca6138bebf33__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__217c22c2_7c3f_4c9d_8cc6_3e92e39131e9__1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__217c22c2_7c3f_4c9d_8cc6_3e92e39131e9__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__398fc607_f6cd_424a_87c0_febd8d8df65a__2","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__398fc607_f6cd_424a_87c0_febd8d8df65a__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a3ebb666_73a4_404b_b2a0_b872163e9809__3","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a3ebb666_73a4_404b_b2a0_b872163e9809__3 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a969eb1d_934f_4f37_974a_65adec5b51c4__4","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a969eb1d_934f_4f37_974a_65adec5b51c4__4 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__aac1b51a_f10c_40c0_bf86_e31076a31772__5","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__aac1b51a_f10c_40c0_bf86_e31076a31772__5 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:42"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d05e2e2c_312b_4a2b_93bc_e8da9bc7ad0c__0","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d05e2e2c_312b_4a2b_93bc_e8da9bc7ad0c__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e814dffd_be68_4338_988c_95698808c97f__1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e814dffd_be68_4338_988c_95698808c97f__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b2b9ecdd_4d6b_42b1_83f3_f7a2c06a97e3__2","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b2b9ecdd_4d6b_42b1_83f3_f7a2c06a97e3__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ed91392e_0b8f_47f7_8a93_784dd8cdfa93__0","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ed91392e_0b8f_47f7_8a93_784dd8cdfa93__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4985a4c3_549e_4458_b5ef_263ed8ff2600__1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4985a4c3_549e_4458_b5ef_263ed8ff2600__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3ae9c90e_120e_4d3d_ad60_acdb6c8777ff__2","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3ae9c90e_120e_4d3d_ad60_acdb6c8777ff__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:44"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7125c47d_6f05_499c_93bc_4308c4b1aa0a__0","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7125c47d_6f05_499c_93bc_4308c4b1aa0a__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0e5a9e09_c093_4648_865f_a689c17830c5__1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0e5a9e09_c093_4648_865f_a689c17830c5__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fe58134f_61a6_4312_9256_738c211f9d58__2","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fe58134f_61a6_4312_9256_738c211f9d58__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e75e44b6_cf8b_413c_989b_deed5e8d3689__0","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e75e44b6_cf8b_413c_989b_deed5e8d3689__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d05e2530_680d_4bd9_aa4e_ddda297ebdf9__1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d05e2530_680d_4bd9_aa4e_ddda297ebdf9__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7eea0700_5554_4d29_8765_e3a7f2282d48__2","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7eea0700_5554_4d29_8765_e3a7f2282d48__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__539366d2_9ac1_448b_8376_518a6b37f1be__0","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__539366d2_9ac1_448b_8376_518a6b37f1be__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e2e18ef4_6f7f_4ea3_8e3f_989fdaded271__1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e2e18ef4_6f7f_4ea3_8e3f_989fdaded271__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__069b014d_21ce_4d90_9d5f_24789d478bb0__2","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__069b014d_21ce_4d90_9d5f_24789d478bb0__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__31cd1e16_74ed_4b45_b7f0_1f6e2ed2a070__0","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__31cd1e16_74ed_4b45_b7f0_1f6e2ed2a070__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__766b2a1e_0cc4_49ff_9b05_2cdccffabdcc__1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__766b2a1e_0cc4_49ff_9b05_2cdccffabdcc__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__729de7f8_0bf6_4a58_abd5_4f6d3653e04a__2","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__729de7f8_0bf6_4a58_abd5_4f6d3653e04a__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:45"}
+{"level":"info","message":"GET /favicon.ico","service":"user-service","timestamp":"2025-05-24 12:30:46"}
+{"level":"warn","message":"404 - Route Not Found - /favicon.ico - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:30:46"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:31:05"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x5NdKabIxO4KlyJI5tZGVjVjZRtTU__eE6ejZGs6AzxzlM_f8SW7zbCOOKsAHV5rA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:31:17"}
+{"level":"error","message":"500 - Unknown authentication strategy \"google\" - /api/auth/google/callback?code=4%2F0AUJR-x5NdKabIxO4KlyJI5tZGVjVjZRtTU__eE6ejZGs6AzxzlM_f8SW7zbCOOKsAHV5rA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:17"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f9526dc0_b06c_4583_9e06_60731a6ffdfd__0","service":"user-service","timestamp":"2025-05-24 12:31:18"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f9526dc0_b06c_4583_9e06_60731a6ffdfd__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:18"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__26fbdf82_35ff_4ab1_8c28_42d24c00c415__1","service":"user-service","timestamp":"2025-05-24 12:31:18"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__26fbdf82_35ff_4ab1_8c28_42d24c00c415__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:18"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a06e274f_6043_44ca_8440_19a6d455f2b5__2","service":"user-service","timestamp":"2025-05-24 12:31:18"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a06e274f_6043_44ca_8440_19a6d455f2b5__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:18"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b09b5682_dc16_4cb9_b582_427885b386e2__3","service":"user-service","timestamp":"2025-05-24 12:31:19"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b09b5682_dc16_4cb9_b582_427885b386e2__3 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:19"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__25703ef2_409d_4dfc_a6cb_5b5e46a2ea98__4","service":"user-service","timestamp":"2025-05-24 12:31:19"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__25703ef2_409d_4dfc_a6cb_5b5e46a2ea98__4 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:19"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f4b9d52c_4f23_4e8b_a7f9_9750623c62fb__5","service":"user-service","timestamp":"2025-05-24 12:31:19"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f4b9d52c_4f23_4e8b_a7f9_9750623c62fb__5 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:19"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1863a912_080f_4193_8573_e55544b6355c__0","service":"user-service","timestamp":"2025-05-24 12:31:20"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1863a912_080f_4193_8573_e55544b6355c__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:20"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4883afec_bb18_4717_b76f_600cde3b2eaf__1","service":"user-service","timestamp":"2025-05-24 12:31:20"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4883afec_bb18_4717_b76f_600cde3b2eaf__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:20"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a3ebbd6e_a80e_4ff1_931b_19bb2b636cd5__2","service":"user-service","timestamp":"2025-05-24 12:31:20"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a3ebbd6e_a80e_4ff1_931b_19bb2b636cd5__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:20"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5018d2b9_f320_47a4_83d7_021c96882312__0","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5018d2b9_f320_47a4_83d7_021c96882312__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__45bb793f_b7f9_4d26_90fe_ea6b12db1324__1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__45bb793f_b7f9_4d26_90fe_ea6b12db1324__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0eab2ce7_84ab_4250_a32c_84b1c10c6844__2","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0eab2ce7_84ab_4250_a32c_84b1c10c6844__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3e77cb25_d941_4c46_998b_8dea64e23886__0","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3e77cb25_d941_4c46_998b_8dea64e23886__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8725b09d_757d_4019_b678_9a85b0e3e20a__1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8725b09d_757d_4019_b678_9a85b0e3e20a__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f437a7cd_a218_4f61_88f9_60c85b37f3be__2","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f437a7cd_a218_4f61_88f9_60c85b37f3be__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__72a0d828_6553_4b7c_b271_d41eda3ff2cc__0","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__72a0d828_6553_4b7c_b271_d41eda3ff2cc__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__17ee807e_66c4_408f_85ad_2d3fdfab5165__1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__17ee807e_66c4_408f_85ad_2d3fdfab5165__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__69affe2a_b9de_48fc_99c3_f284c1f60e3a__2","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__69affe2a_b9de_48fc_99c3_f284c1f60e3a__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dcdda4f5_0b4d_4555_a37e_37a54467c584__0","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dcdda4f5_0b4d_4555_a37e_37a54467c584__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__243645b9_585f_4afb_b036_f5566246a7f7__1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__243645b9_585f_4afb_b036_f5566246a7f7__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ac9c5fa5_416f_47f9_be79_c4773a4493d5__2","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ac9c5fa5_416f_47f9_be79_c4773a4493d5__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__704b9ca8_415f_4228_8080_d91b3ede1b42__0","service":"user-service","timestamp":"2025-05-24 12:31:21"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__704b9ca8_415f_4228_8080_d91b3ede1b42__0 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:22"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__05ca3395_29dd_4d7e_a1a9_2c032e94c98e__1","service":"user-service","timestamp":"2025-05-24 12:31:22"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__05ca3395_29dd_4d7e_a1a9_2c032e94c98e__1 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:22"}
+{"level":"info","message":"GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__94fad15c_d399_4cfc_a100_7d0085e83cf5__2","service":"user-service","timestamp":"2025-05-24 12:31:22"}
+{"level":"warn","message":"404 - Route Not Found - /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__94fad15c_d399_4cfc_a100_7d0085e83cf5__2 - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:22"}
+{"level":"info","message":"GET /favicon.ico","service":"user-service","timestamp":"2025-05-24 12:31:23"}
+{"level":"warn","message":"404 - Route Not Found - /favicon.ico - GET - ::1","service":"user-service","timestamp":"2025-05-24 12:31:23"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:32:22"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x4vzlZnovB8sBVokDULGcHmyDLSC1YQGEsepD1ZUWQRskkoHER6fmfvO91v_oBwfw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:32:46"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x6eCpCs6gxHcuKqB4MEhG85Nzy3Ac1oZkSus_ynJHvyKK3_goLipU0dWP2gFbU9og&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:33:25"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x4F4ejoZTm078gfWShcPCd7hOIqO3o4mpeapo0NM7Ucn8CRwcIyUakCG-EbT-I9RA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:35:56"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:36:19"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x4IfBPS_G7hVqINHkkBv8voP5_jEoGt-qTfNe2KDOjSUbJbhT0uqlhW36ZNxrLHbg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:36:39"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:38:39"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:38:45"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:39:15"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:39:25"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x4bXwFdajdDDehzTfLJozKqrt1s_s_JVczIgiW7Dj295FNiJsOPx0aujDfDzrz0LA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:41:35"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:44:37"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:45:22"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:45:26"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:16"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:16"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:16"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:16"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:17"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:18"}
+{"level":"info","message":"GET /api/auth/google/callback?code=4%2F0AUJR-x7aGW0QA6dxr6aD4BRS8NCFQgqdpBA9Bvj8-zUQkDTD504oRHgvjMpxT4dsNDGGfA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent","service":"user-service","timestamp":"2025-05-24 12:47:38"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"GET /api/users/me","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:40"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"GET /api/articles","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"GET /api/contents","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"User 3 authenticated successfully","service":"user-service","timestamp":"2025-05-24 12:47:41"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service","timestamp":"2025-05-24 12:47:56"}

@@ -1,10 +1,8 @@
-// src/config/passport.config.ts
 import passport from "passport";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 import { Strategy as FacebookStrategy } from "passport-facebook";
 import prisma from "../config/prisma";
 
-// 🔵 Google Strategy
 passport.use(
   new GoogleStrategy(
     {
