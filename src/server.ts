@@ -13,7 +13,7 @@ import "./config/passport";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 app.use(express.json());
 app.use(cors());
@@ -26,7 +26,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 app.use("/api/auth", AuthRoutes);
 app.use("/api/users", UserRoutes);
 app.use("/api/articles", ArticleRoutes);
-app.use("/api/videos", ContentRoutes);
+app.use("/api/contents", ContentRoutes);
 
 app.use(passport.initialize());
 
